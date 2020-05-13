@@ -1,0 +1,29 @@
+<div class="panel panel-default">
+  <div class="panel-body">
+    <div class="row">
+        <div class="col-md-4"><img class="imgclass_" src="img/ships/IMGID.png" width="imgw_" style="margin:imgs_;"></div>
+        <div class="col-md-5"><div style="font-size:20px;margin:0 0 6px 0;">name_</div><p>desc_</p><div style="border-bottom: 1px solid rgba(255, 255, 255, 0.20);margin:16px 0 14px 0;"></div><p style="font-size:13px;"><img src="img/icons/uranium.png" width="13px" height="13px" style="margin:0 6px 0 0;">Uranium consumption per coordinate point: consumption_<br><img src="img/icons/speed.png" width="13px" height="13px" style="margin:0 6px 0 0;">Speed (coordinate point per hour): speed_<br><img src="img/icons/capacity.png" width="13px" height="13px" style="margin:0 6px 0 0;">Storage capacity: capacity_<br><img src="img/icons/typeimg.png" width="13px" height="13px" style="margin:0 6px 0 0;">type_attack_extratyp_<a class="tooltips" href="" style="text-decoration:none;font-size:11px;display:cvb_"><img src="img/icons/info.png" width="14px" height="14px" style="margin:-3px 0 0 0;"><span>Civil ships have no attack points.</span></a><br><img src="img/icons/defensive.png" width="13px" height="13px" style="margin:0 6px 0 0;">Structure: structure_ / Armor: armor_ / Shield: shield_</p><div style="border-bottom: 1px solid rgba(255, 255, 255, 0.20);margin:16px 0 14px 0;"></div><p style="font-size:13px;"><img src="img/icons/skills.png" width="13px" height="13px" style="margin:0 6px 0 0;">Required Ship <a href="skills" class="steem-keychain-checked">Skill</a>: class_ lvl. sk_<br><img src="img/icons/skills.png" width="13px" height="13px" style="margin:0 6px 0 0;">Required Building <a href="skills" class="steem-keychain-checked">Skill</a>: Shipyard lvl. sys_<br><img src="img/icons/buildings.png" width="13px" height="13px" style="margin:0 6px 0 0;">Required <a href="buildings" class="steem-keychain-checked">Building</a> Level: Shipyard lvl. syb_</p><div style="border-bottom: 1px solid rgba(255, 255, 255, 0.20);margin:16px 0 14px 0;"></div><p style="font-size:13px;">cost_<br><span class="glyphicon glyphicon-time" aria-hidden="true"></span>  time_</p><p id="upc" style="font-size:13px; display: udisplay;">Upgrade: - C, - Fe, - Cu, - U, - SD<br><span class="glyphicon glyphicon-time" aria-hidden="true"></span>  -</p></div>
+        <div class="col-md-3">
+          <div style="text-align: center; color: #ffffff; font-size:12px; display: displaytimer_">Next build available in <span id="id_timer">loading</span></div>
+          <button type="button" id="id_btn" onclick="onclick_" class="btn btn-color_ btn-sm btn-block disabled_">btn_</button>
+          <div style="text-align:center;color:#ffffff;font-size:12px;display:bpdp;">bpl Blueprints left. Go to <a href="/shop">Shop</a> »</div>
+          <div style="text-align:center;color:#ffffff;font-size:12px;display:ibdp;">Go to <a href="/items">Items</a> »</div>
+          <div style="text-align:center;color:#ffffff;font-size:12px;display:rbdp;">How to earn this <a target="_blank" href="https://guide.nextcolony.io/reward">Blueprint?</a> »</div>
+
+          <div style="text-align:center;color:#ffffff;font-size:12px;display:bbdp;">Upgrade Shipyard <a href="/buildings">Building</a> »</div>
+          <div style="text-align:center;color:#ffffff;font-size:12px;display:sbdp;">Enhance class_ <a href="/skills">Skill</a> »</div>
+          
+          <div style="display: upbard_;"> 
+            <div style="margin:10px 0 0 0;text-align:center;color:#ffffff;font-size:12px;display: block;"><span id="iduts" style="display: none;">Upgrading finished in <span id="idutimer">loading</span></span></div>
+            <div style="margin:0 0 6px 0;">
+              <select class="form-control input-sm" style="width:100%; background-color:transparent;color:fff;" id="tiersel">
+                <option>Choose a tier to upgrade...</option>
+              </select>
+            </div>
+            <button id="tierbtn" type="button" class="btn btn-info btn-sm btn-block">Upgrade</button>
+          </div>
+        </div>
+        <div style="text-align:center;color:#ffffff;font-size:12px;display:upbard_;" ><span id="avmis"></span> <a class="tooltips steem-keychain-checked" href="" style="text-decoration:none;font-size:11px;"><img src="img/icons/info.png" width="14px" height="14px" style="margin:-3px 0 0 0;"><span>Upgrading Yamato starts a new mission and requires a mission control slot.</span></a></div>
+    </div>
+  </div>
+</div>
